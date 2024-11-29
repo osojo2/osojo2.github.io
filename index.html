@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang=“es”> 
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="presentacion, web de musica, 90s, 2000s, 2010s, 2020s"> 
+  <title>Track2Back</title>
+  <link rel="icon" href="/multimedia/iconoAlt.png" type="image/png">
+  <link rel="stylesheet" href="/estilos/styles.css">
+  <link rel="stylesheet" href="/estilos/carrusel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="contenedorLogo sombra"> <!-- Cabecera con logo + icono -->
+    <img class="icon" src="/multimedia/track2backico.png" alt="logo">
+    <h1 class="tituloLogo">Track2Back</h1>
+  </header>
+
+  <br>
+
+  <nav class="sombra"> <!-- Menú de navegación -->
+    <div>
+      <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/paginasint/lineamusical.html">Linea musical</a></li>
+          <li><a href="/paginasint/novedades.html">Novedades</a></li>
+          <li><a href="/paginasint/contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>  
+
+  <main> <!-- Contenido de la página -->
+
+      <div class="contenedor-padre sombra"> <!-- Contenedor del fondo -->
+
+        <div class="contenedorPresenta sombra"> <!-- Texto de presentación -->
+          <h3 class="tituloPre">¿Para quién es Track2Back?</h3>
+          <p class="textoPre">¿Eres amante de la música? ¿Tienes curiosidad y te gusta tener conocimineto por las diferentes décadas que han marcado la historia musical? 
+            Si es así, esta web es donde tienes que estar. Disfruta de una variedad de artistas, grupos, noticias y datos; desde los 90s hasta los 2020s.</p>
+        </div>
+
+          <div class="carousel"> <!-- Carrusel o slider de los gifs -->
+
+            <ul class="slides"> <!-- Contenidos del carrusel -->
+              <input type="radio" name="radio-buttons" id="img-1" checked/>
+              <li class="slide-container">
+                <div class="slide-image"> <!-- Primer gif del carrusel -->
+                  <img src="/multimedia/1990s.gif">
+                </div>
+                <div class="carousel-controls"> <!-- Controles del arrusel o <> -->
+                  <label for="img-4" class="prev-slide">
+                    <span>‹</span>
+                  </label>
+                  <label for="img-2" class="next-slide">
+                    <span>›</span>
+                  </label>
+                </div>
+              </li>
+
+              <input type="radio" name="radio-buttons" id="img-2" />
+              <li class="slide-container">
+                <div class="slide-image"> <!-- Segundo gif del carrusel -->
+                  <img src="/multimedia/2000s.gif">
+                </div>
+                <div class="carousel-controls"> <!-- Controles del arrusel o <> -->
+                  <label for="img-1" class="prev-slide">
+                    <span>‹</span>
+                  </label>
+                  <label for="img-3" class="next-slide">
+                    <span>›</span>
+                  </label>
+                </div>
+              </li>
+
+              <input type="radio" name="radio-buttons" id="img-3" />
+              <li class="slide-container">
+                <div class="slide-image"> <!-- Tercer gif del carrusel -->
+                  <img src="/multimedia/2010s.gif">
+                </div>
+                <div class="carousel-controls"> <!-- Controles del arrusel o <> -->
+                  <label for="img-2" class="prev-slide">
+                    <span>‹</span>
+                  </label>
+                  <label for="img-4" class="next-slide">
+                    <span>›</span>
+                  </label>
+                </div>
+              </li>
+
+              <input type="radio" name="radio-buttons" id="img-4" checked/>
+              <li class="slide-container">
+                <div class="slide-image"> <!-- Cuarto gif del carrusel -->
+                  <img src="/multimedia/2020s.gif">
+                </div>
+                <div class="carousel-controls"> <!-- Controles del arrusel o <> -->
+                  <label for="img-3" class="prev-slide">
+                    <span>‹</span>
+                  </label>
+                  <label for="img-1" class="next-slide">
+                    <span>›</span>
+                  </label>
+                </div>
+              </li>
+
+              <div class="carousel-dots"> <!-- Puntos del carrusel -->
+                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+              </div>
+            </ul>
+
+          </div>
+
+      </div> 
+
+  </main> <!-- Fin del contenido de la página -->
+     
+  <footer class="sombra"> <!-- Footer de la página con las licencias -->
+    <p>Autoría y licencias: Página web realizada por Odei Sojo con fines educativos. Todos los derechos de las imágenes y videos están reservados y pertenecen a sus autores.</p>
+    <p>
+      <span property="dct:title">Track2Back</span> by <span property="cc:attributionName">Odei Sojo</span> is licensed under 
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
+      </a>
+    </p>
+  </footer>
+
+</body>
+
+</html>

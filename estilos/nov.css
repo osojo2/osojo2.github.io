@@ -1,0 +1,82 @@
+/* CONTENEDORES */
+.contenedorPrin {
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #47916a;
+    border-radius: 25px;
+    border: solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 1250px;
+}
+
+.contenedorNot {
+    width: 600px;
+    height: fit-content;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.contenedorRevs {
+    width: 400px;
+    height: fit-content;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* ESTILOS DE TEXTO */
+
+.title {
+    border-bottom:4px solid #47916a;
+    font-family: "Rubik Bubbles";
+    font-size: 30px; 
+    word-spacing:2px;
+}
+
+.titular {
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: "Rubik";
+}
+
+.textoArt {
+    font-family: "Rubik";
+    font-weight: 200;
+}
+
+.leermas {
+    color:#ffffff;
+    font-size:10px; 
+    font-weight:bold; 
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase; 
+    background-color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    font-family: "Rubik";
+}
+
+.leermas:hover {
+    color: #47916a;
+}
+  

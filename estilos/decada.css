@@ -1,0 +1,76 @@
+/* CONTENEDORES */
+.contenedorDec {
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    width: 600px;
+    height: fit-content;
+    font-family: "Rubik";
+    color: black;
+    margin: 10px;
+}
+
+.contenedorPlay {
+    width: 325px;
+    height: 525px;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ESTILOS DE TEXTO */
+.title {
+    border-bottom: 4px solid #47916a;
+    margin-bottom: 10px;
+    font-family: "Rubik Bubbles";
+    font-size: 30px; 
+    word-spacing: 2px;
+}
+
+h3 {
+    font-family: "Rubik";
+    color: black;
+}
+
+/* DETALLES DEL BOTÓN */
+.boton {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    color: white;
+    display: block;
+    height: 50px;
+    width: 75px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    font-family: "Rubik";
+    font-weight: 700;
+    margin-left: 45%;
+}
+
+.boton:hover {
+    color: #47916a;
+}
+
+/* CARACTERÍSTICAS DEL IFRAME */
+iframe {
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    position: static; 
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 300px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
